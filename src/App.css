@@ -1,0 +1,82 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eaf2ff;
+}
+
+.header {
+  background: #263b80;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px #b8c7df;
+}
+
+h2 {
+  color: #263b80;
+}
+
+input {
+  padding: 12px;
+  margin: 10px;
+  border: 2px solid #9bb5e8;
+  border-radius: 8px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #263b80;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #405fc0;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.student {
+  background: #f0f5ff;
+  border-left: 5px solid #405fc0;
+  padding: 15px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.student h3 {
+  color: #263b80;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  background: #263b80;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
